@@ -1,3 +1,5 @@
+https://devpost.com/submit-to/12561-ru-hacks-2021-digital/manage/submissions/232254-link/finalization
+
 ## Inspiration
 We were inspired by our own personal experience. We often sat there with friends unsure of where to go, but the issue wasn't we couldn't decide, it's that we didn't know what was available. Hopefully that will all change with Link!
 
