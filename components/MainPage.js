@@ -13,7 +13,7 @@ export default function MainPage({navigation}) {
 
       </View>
 
-      <TouchableHighlight onPress= { () => navigation.navigate("signupPage")}>
+      <TouchableHighlight onPress= { () => navigation.navigate("loginPage")}>
           <Image style={styles.logout} 
               source={require('./../images/logout.png')}>
           </Image> 

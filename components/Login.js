@@ -24,7 +24,6 @@ export default function Login({navigation}) {
           </Image>
         </TouchableHighlight>
 
-
       </ImageBackground>
 
     </View>
