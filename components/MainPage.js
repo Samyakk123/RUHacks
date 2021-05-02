@@ -7,31 +7,32 @@ export default function MainPage({navigation}) {
     <View style={styles.container}>
  
       <ImageBackground style={{ alignItems: 'center', paddingBottom: 25, justifyContent: "center", width: 414, height: 896 }} 
-      source={require('./../images/dashboardPage.png')}>
+      source={require('./../images/UserDashboard.svg')}>
 
       <View style={{ alignItems: 'center'}}>
 
       </View>
 
       <TouchableHighlight onPress= { () => navigation.navigate("signupPage")}>
-          <Image style={{ left: 160, bottom: 375, width: 28.83, height: 27.22 }} 
+          <Image style={styles.logout} 
               source={require('./../images/logout.png')}>
           </Image> 
       </TouchableHighlight>
 
 
         <TouchableHighlight onPress= { () => navigation.navigate("signupPage")}>
-          <Image style={{width: 394, height: 100 }} 
+          <Image style={styles.linkup} 
               source={require('./../images/linkup.svg')}>
           </Image> 
         </TouchableHighlight>
 
+     
 
-        {/* <TouchableHighlight onPress={ () => navigation.navigate("signupPage")}> 
-          <Image style={{  width: 190, height: 50 }} 
-          source={require('./../images/signin.png')}>
+         <TouchableHighlight onPress={ () => navigation.navigate("signupPage")}> 
+          <Image style={{  width: 25, height: 25, left: 175, top:-180 }} 
+          source={require('./../images/add.svg')}>
           </Image>
-        </TouchableHighlight> */}
+        </TouchableHighlight> 
       </ImageBackground>
 
     </View>
@@ -46,4 +47,17 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  logout:{ 
+    top: -325,
+    left: 165, 
+    width: 28.83,
+    height: 27.22,
+   },
+   linkup: {
+    top: -225,
+
+     width: 394, 
+     height: 100,
+    },
+
 });
