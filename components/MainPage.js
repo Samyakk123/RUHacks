@@ -20,7 +20,7 @@ export default function MainPage({navigation}) {
       </TouchableHighlight>
 
 
-        <TouchableHighlight onPress= { () => navigation.navigate("signupPage")}>
+        <TouchableHighlight onPress= { () => navigation.navigate("trip")}>
           <Image style={styles.linkup} 
               source={require('./../images/linkup.svg')}>
           </Image> 
