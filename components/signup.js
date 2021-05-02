@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, Image, ImageBackground } from 'react-native';
 
 
-export default function signup() {
+export default function signup({navigation}) {
   return (
     <View style={styles.container}>
       <Text>I am second screen.</Text>

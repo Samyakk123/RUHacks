@@ -8,7 +8,7 @@ import Login from './components/Login';
 
 export default function App() {
   return (
-    <Login></Login>
+    <Navigator/>
     // <View style={styles.container}>
     //   <ImageBackground style={{ alignItems: 'center', paddingBottom: 25, justifyContent: "center", width: 414, height: 896 }} 
     //   source={require('./images/LoginPage.svg')}>

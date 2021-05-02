@@ -1,14 +1,15 @@
 import { createStackNavigator } from 'react-navigation-stack';
 import { createAppContainer } from 'react-navigation';
 import App from '../App';
-import signup from '../components/signup';
+import Login from '../components/Login';
+import Signup from '../components/Signup';
 
 const screens = {
   loginPage: {
-    screen: App
+    screen: Login
   },
   signupPage: {
-    screen: signup
+    screen: Signup
   }
 }
 
