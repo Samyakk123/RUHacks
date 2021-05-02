@@ -2,15 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, Image, ImageBackground, TouchableHighlight } from 'react-native';
 
-export default function signup({navigation}) {
+export default function MainPage({navigation}) {
   return (
     <View style={styles.container}>
-      <ImageBackground style={{ alignItems: 'center', paddingTop: 450, justifyContent: "center", width: 414, height: 896 }} 
-      source={require('./../images/signup.svg')}>
+      <ImageBackground style={{ alignItems: 'center', paddingBottom: 25, justifyContent: "center", width: 414, height: 896 }} 
+      source={require('./../images/dashboardPage.png')}>
 
-        <TouchableHighlight onPress={ () => navigation.navigate("loginPage")}> 
+        <TouchableHighlight onPress={ () => navigation.navigate("signupPage")}> 
           <Image style={{  width: 190, height: 50 }} 
-          source={require('./../images/createButton.png')}>
+          source={require('./../images/signin.png')}>
           </Image>
         </TouchableHighlight>
 
@@ -19,6 +19,7 @@ export default function signup({navigation}) {
     </View>
   );
 }
+
 
 const styles = StyleSheet.create({
   container: {
