@@ -15,6 +15,9 @@ export default function Login({navigation}) {
       
       <ImageBackground style={{ alignItems: 'center', paddingBottom: 25, justifyContent: "center", width: 414, height: 896 }} 
       source={require('./../images/LoginPage.svg')}>
+        
+        
+        
         <TextInput style={styles.inputone}  onChangeText={onChangeText} value={text} placeholder="email" placeholderTextColor="grey"/>
         <TextInput style={styles.input}  onChangeText={onChangeTexttwo} value={texttwo} placeholder="password"/>
 
@@ -23,6 +26,11 @@ export default function Login({navigation}) {
           source={require('./../images/signin.png')}>
           </Image>
         </TouchableHighlight>
+
+        <TouchableHighlight style={styles.create} onPress={ () => navigation.navigate("signupPage")}> 
+          <Text style={styles.create}>Create One</Text>   
+        </TouchableHighlight>
+        
 
       </ImageBackground>
 
@@ -81,4 +89,10 @@ const styles = StyleSheet.create({
     shadowRadius: 2.65,
     elevation: 5,
   },
+ create :{
+   top: 236,
+   color:"#0085FF",
+   left: 90,
+
+ }
 });
