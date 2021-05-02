@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Image, ImageBackground, TextInput, TouchableHighlight} from 'react-native';
+import { StyleSheet, Text, View, Image, ImageBackground, TextInput, useState, TouchableHighlight} from 'react-native';
 import { color } from 'react-native-reanimated';
 
 export default function Login({navigation}) {
